@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backlink Audit Tool | Backlink Buddy</title>
+<meta name="description" content="Practice a simple backlink audit using URL, anchor text, link type and relevance fields.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="nav container"><a class="logo" href="index.html">🔗 Backlink <span>Buddy</span></a><button class="menu-btn">☰</button><div class="nav-links"><a href="index.html">Home</a><a href="learn.html">Learn SEO</a><a href="checker.html">Checker</a><a class="active" href="audit.html">Audit</a><a href="resources.html">Resources</a></div></nav></header>
+<main>
+<section class="page-hero"><div class="container"><p class="eyebrow">PRACTICE TOOL</p><h1>Backlink Audit</h1><p>Add sample backlinks and classify them. The tool gives a simple educational audit result.</p></div></section>
+<section class="section"><div class="container">
+<div class="audit-form">
+<div><label>Source URL</label><input id="sourceUrl" placeholder="https://blog.example.com/post"></div>
+<div><label>Anchor text</label><input id="anchorText" placeholder="best SEO guide"></div>
+<div><label>Link type</label><select id="linkType"><option value="dofollow">Dofollow</option><option value="nofollow">Nofollow</option><option value="ugc">UGC</option><option value="sponsored">Sponsored</option></select></div>
+<div><label>Relevance</label><select id="relevance"><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></div>
+<button class="btn primary full" id="addLink">+ Add backlink</button>
+</div>
+<div class="audit-summary"><div><b id="linkCount">0</b><small>Links added</small></div><div><b id="auditScore">—</b><small>Demo score</small></div><div><b id="auditStatus">Waiting</b><small>Status</small></div></div>
+<div class="table-wrap"><table id="auditTable"><thead><tr><th>Source</th><th>Anchor</th><th>Type</th><th>Relevance</th><th>Action</th></tr></thead><tbody><tr class="empty-row"><td colspan="5">No backlinks yet. Add one above to begin your audit.</td></tr></tbody></table></div>
+<div class="callout">🧠 <strong>Audit habit:</strong> Don't judge a link using one metric. Look at relevance, context, link attributes and whether the source appears trustworthy and useful.</div>
+</div></section>
+</main>
+<footer><div class="container footer-grid"><div><a class="logo" href="index.html">🔗 Backlink <span>Buddy</span></a><p>Learn off-page SEO, one backlink at a time.</p></div><div><b>Tools</b><a href="checker.html">Checker</a><a href="audit.html">Audit</a></div><div><b>Guide</b><a href="learn.html">Learn SEO</a><a href="resources.html">Resources</a></div></div><div class="copyright">© 2026 Backlink Buddy · Educational demo project</div></footer>
+<script src="js/script.js"></script></body></html>
