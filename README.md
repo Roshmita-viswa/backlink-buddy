@@ -1,7 +1,18 @@
 # 🔗 Backlink Buddy
 
 A beginner-friendly 5-page website for learning and practicing basic Off-Page SEO concepts.
+## 🌐 Live Demo
 
+👉 [Visit Backlink Buddy](https://roshmita-viswa.github.io/backlink-buddy/)
+
+## 📌 Features
+
+- Learn Off-Page SEO
+- Backlink Checker
+- Backlink Audit
+- SEO Checklist
+- SEO Resources
+- Responsive design
 ## Pages
 - `index.html` — Home
 - `learn.html` — Off-Page SEO lessons
